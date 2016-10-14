@@ -1,0 +1,36 @@
+%form{:action => "/messages/new", :method => "POST"}
+  %h4
+    New message:
+  -#%input{:name => "message", :type => "text", :value => "Enter Model Name"}
+  %textarea#message{:name => "message", :style => "height: 100px; width: 300px;"}
+  %h4
+    Expires after:
+  %input{:name => "expires_after", :type => "radio", :value => @one_click}
+  One click
+  %br
+  %input{:name => "expires_after", :type => "radio", :value => @one_hour}
+  One hour
+  %br
+  %br
+  %b
+    or choose your variant:
+  %br
+  %br
+  %input{:name => "click_exp", :type => "text", :placeholder => "Enter number OF"}
+  Clicks
+  %br
+  or
+  %br
+  %input{:name => "time_exp", :type => "text", :placeholder => "Enter number OF"}
+  Hours
+  %br
+  %br
+  %input{:type => "submit", :value => "Submit"}
+=@time
+%br
+=@hour
+%br
+%br
+%br
+%br
+=@yu

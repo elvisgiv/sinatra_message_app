@@ -1,0 +1,26 @@
+- if @msg_obj
+  %b
+    Message content:
+  =@message
+  %br
+  %br
+  - if @msg_obj.visit_total > 0
+    %b
+      expires after:
+    = @expires_click
+    click(s)
+  -else
+    %b
+      expires after:
+    %br
+    %br
+    =@expires_after
+    seconds
+- else
+  =@message
+%br
+%br
+%a{:href => "/messages/new"} New message
+%br
+%br
+%a{:href => "/messages"} Messages list

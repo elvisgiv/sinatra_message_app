@@ -1,0 +1,8 @@
+%h3 Messages list
+-@messages.each do |t|
+  %ul
+    %li
+      %a{:href => "/messages/#{t[:uid]}"} "#{t[:link]}"
+%br
+%br
+%a{:href => "/messages/new"} New message
