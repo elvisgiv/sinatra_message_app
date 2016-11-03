@@ -15,6 +15,7 @@ end
 
 post '/messages/new' do
   require_relative '../lib/messages_service'
+  require_relative '../lib/encrypt_decrypt'
   #
   msg = params['message'] || ''
   expires = params['expires_after'] || 0
@@ -39,6 +40,7 @@ end
 
 get '/messages/:uid' do
   require_relative '../lib/messages_service'
+  require_relative '../lib/encrypt_decrypt'
   require 'date'
   #
   uid = params[:uid] || ''
