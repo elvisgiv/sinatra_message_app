@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1691dcbf-10b6-4538-9d94-e7c76fad6c3b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/encrypt_decrypt.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments.rb" afterPath="$PROJECT_DIR$/config/environments.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/messages_service.rb" afterPath="$PROJECT_DIR$/lib/messages_service.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/message.rb" afterPath="$PROJECT_DIR$/models/message.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/messages.rb" afterPath="$PROJECT_DIR$/routes/messages.rb" />
     </list>
     <ignored path="sinatra_app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -220,7 +215,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="elvis_dev" />
       </map>
     </option>
   </component>
@@ -696,7 +691,13 @@
       <option name="project" value="LOCAL" />
       <updated>1478162809322</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="S.O.L.I.D.">
+      <created>1478166253130</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1478166253130</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -768,7 +769,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="S.O.L.I.D." />
+    <option name="LAST_COMMIT_MESSAGE" value="S.O.L.I.D." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
